@@ -11,4 +11,6 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Deploy
-        run: echo "Déploiement réussi !"
+        run: |
+          echo "Déploiement réussi !"
+          echo "::notice:: Déploiement réussi !"
